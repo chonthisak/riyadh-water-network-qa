@@ -1,0 +1,760 @@
+{
+  "type": "FeatureCollection",
+  "name": "pipes_clean",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:32638"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 1,
+        "asset_id": "H00",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670000,
+            2740000
+          ],
+          [
+            670100,
+            2740000
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 2,
+        "asset_id": "H10",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670100,
+            2740000
+          ],
+          [
+            670200,
+            2740000
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 3,
+        "asset_id": "H20",
+        "diameter_mm": null,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670200,
+            2740000
+          ],
+          [
+            670300,
+            2740000
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 4,
+        "asset_id": "H30",
+        "diameter_mm": -100,
+        "terminal_end": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670300,
+            2740000
+          ],
+          [
+            670400,
+            2740000
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 5,
+        "asset_id": "H01",
+        "diameter_mm": 150,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670000,
+            2740100
+          ],
+          [
+            670100,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 6,
+        "asset_id": "H11",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670100,
+            2740100
+          ],
+          [
+            670200,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 7,
+        "asset_id": "H21",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670200,
+            2740100
+          ],
+          [
+            670300,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 8,
+        "asset_id": "H31",
+        "diameter_mm": 100,
+        "terminal_end": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670300,
+            2740100
+          ],
+          [
+            670400,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 9,
+        "asset_id": "H02",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670000,
+            2740200
+          ],
+          [
+            670100,
+            2740200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 10,
+        "asset_id": "H12",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670100,
+            2740200
+          ],
+          [
+            670200,
+            2740200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 11,
+        "asset_id": "H22",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670200,
+            2740200
+          ],
+          [
+            670300,
+            2740200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 12,
+        "asset_id": "H32",
+        "diameter_mm": 200,
+        "terminal_end": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670300,
+            2740200
+          ],
+          [
+            670400,
+            2740200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 13,
+        "asset_id": "H03",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670000,
+            2740300
+          ],
+          [
+            670100,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 14,
+        "asset_id": "H13",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670100,
+            2740300
+          ],
+          [
+            670200,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 15,
+        "asset_id": "H23",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670200,
+            2740300
+          ],
+          [
+            670300,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 16,
+        "asset_id": "H33",
+        "diameter_mm": 150,
+        "terminal_end": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670300,
+            2740300
+          ],
+          [
+            670400,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 17,
+        "asset_id": "V00",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670000,
+            2740000
+          ],
+          [
+            670000,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 18,
+        "asset_id": "V01",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670000,
+            2740100
+          ],
+          [
+            670000,
+            2740200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 19,
+        "asset_id": "V02",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670000,
+            2740200
+          ],
+          [
+            670000,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 20,
+        "asset_id": "V10",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670100,
+            2740000
+          ],
+          [
+            670100,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 21,
+        "asset_id": "V11",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670100,
+            2740100
+          ],
+          [
+            670100,
+            2740200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 22,
+        "asset_id": "V12",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670100,
+            2740200
+          ],
+          [
+            670100,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 23,
+        "asset_id": "V20",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670200,
+            2740000
+          ],
+          [
+            670200,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 24,
+        "asset_id": "V21",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670200,
+            2740100
+          ],
+          [
+            670200,
+            2740200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 25,
+        "asset_id": "V22",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670200,
+            2740200
+          ],
+          [
+            670200,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 26,
+        "asset_id": "V30",
+        "diameter_mm": 100,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670300,
+            2740000
+          ],
+          [
+            670300,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 27,
+        "asset_id": "V31",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670300,
+            2740100
+          ],
+          [
+            670300,
+            2740200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 28,
+        "asset_id": "V32",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670300,
+            2740200
+          ],
+          [
+            670300,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 29,
+        "asset_id": "ZERO",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670600,
+            2740300
+          ],
+          [
+            670600,
+            2740300
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 30,
+        "asset_id": "DUP-GEOM",
+        "diameter_mm": 200,
+        "terminal_end": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670000,
+            2740100
+          ],
+          [
+            670100,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 31,
+        "asset_id": "GAP",
+        "diameter_mm": 150,
+        "terminal_end": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670400,
+            2740000
+          ],
+          [
+            670499,
+            2740000
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 32,
+        "asset_id": "GAP-NEXT",
+        "diameter_mm": 100,
+        "terminal_end": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670500,
+            2740000
+          ],
+          [
+            670600,
+            2740000
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 33,
+        "asset_id": "ISLAND",
+        "diameter_mm": 150,
+        "terminal_end": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670600,
+            2740100
+          ],
+          [
+            670700,
+            2740100
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 34,
+        "asset_id": "CROSSING",
+        "diameter_mm": 200,
+        "terminal_end": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            670150,
+            2739950
+          ],
+          [
+            670150,
+            2740050
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "sources",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:32638"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "row_id": 1,
+        "asset_id": "SOURCE-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670000,
+          2740000
+        ]
+      }
+    }
+  ]
+}

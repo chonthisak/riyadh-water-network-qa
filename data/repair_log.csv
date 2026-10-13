@@ -1,0 +1,3 @@
+row_id,field,old_value,new_value,reason
+1,asset_id,DUP-ID,H00,Recover known ID from synthetic fixture specification
+2,asset_id,DUP-ID,H10,Recover known ID from synthetic fixture specification

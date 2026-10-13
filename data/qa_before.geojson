@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "name": "qa_before",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:32638"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 1,
+        "code": "DUPLICATE_ID",
+        "layer": "pipes",
+        "row_id": 1,
+        "asset_id": "DUP-ID",
+        "severity": "high",
+        "description": "Asset ID occurs more than once"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670000,
+          2740000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 2,
+        "code": "DUPLICATE_ID",
+        "layer": "pipes",
+        "row_id": 2,
+        "asset_id": "DUP-ID",
+        "severity": "high",
+        "description": "Asset ID occurs more than once"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670100,
+          2740000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 3,
+        "code": "MISSING_DIAMETER",
+        "layer": "pipes",
+        "row_id": 3,
+        "asset_id": "H20",
+        "severity": "high",
+        "description": "Required diameter is missing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670200,
+          2740000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 4,
+        "code": "INVALID_DIAMETER",
+        "layer": "pipes",
+        "row_id": 4,
+        "asset_id": "H30",
+        "severity": "high",
+        "description": "Diameter must be positive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670300,
+          2740000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 5,
+        "code": "ZERO_LENGTH",
+        "layer": "pipes",
+        "row_id": 29,
+        "asset_id": "ZERO",
+        "severity": "high",
+        "description": "Pipe has zero length"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670600,
+          2740300
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 6,
+        "code": "DUPLICATE_GEOMETRY",
+        "layer": "pipes",
+        "row_id": 30,
+        "asset_id": "DUP-GEOM",
+        "severity": "high",
+        "description": "Same line as row 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670000,
+          2740100
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 7,
+        "code": "NEAR_GAP",
+        "layer": "pipes",
+        "row_id": 32,
+        "asset_id": "GAP-NEXT",
+        "severity": "medium",
+        "description": "Endpoint within 2.0 m of pipe row 31; review before snapping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670500,
+          2740000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 8,
+        "code": "DISCONNECTED",
+        "layer": "pipes",
+        "row_id": 32,
+        "asset_id": "GAP-NEXT",
+        "severity": "high",
+        "description": "No endpoint path to a source"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670500,
+          2740000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 9,
+        "code": "DISCONNECTED",
+        "layer": "pipes",
+        "row_id": 33,
+        "asset_id": "ISLAND",
+        "severity": "high",
+        "description": "No endpoint path to a source"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670600,
+          2740100
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 10,
+        "code": "DISCONNECTED",
+        "layer": "pipes",
+        "row_id": 34,
+        "asset_id": "CROSSING",
+        "severity": "high",
+        "description": "No endpoint path to a source"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670150,
+          2739950
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "issue_id": 11,
+        "code": "OFF_NETWORK_VALVE",
+        "layer": "valves",
+        "row_id": 2,
+        "asset_id": "VALVE-02",
+        "severity": "high",
+        "description": "Valve farther than 2.0 m from every usable pipe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          670050,
+          2740010
+        ]
+      }
+    }
+  ]
+}

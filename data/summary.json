@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "srid": 32638,
+  "tolerance_m": 2.0,
+  "pipes": 34,
+  "valves": 2,
+  "before": {
+    "DISCONNECTED": 3,
+    "DUPLICATE_GEOMETRY": 1,
+    "DUPLICATE_ID": 2,
+    "INVALID_DIAMETER": 1,
+    "MISSING_DIAMETER": 1,
+    "NEAR_GAP": 1,
+    "OFF_NETWORK_VALVE": 1,
+    "ZERO_LENGTH": 1
+  },
+  "after": {
+    "DISCONNECTED": 3,
+    "DUPLICATE_GEOMETRY": 1,
+    "INVALID_DIAMETER": 1,
+    "MISSING_DIAMETER": 1,
+    "NEAR_GAP": 1,
+    "OFF_NETWORK_VALVE": 1,
+    "ZERO_LENGTH": 1
+  },
+  "before_total": 11,
+  "after_total": 9
+}
